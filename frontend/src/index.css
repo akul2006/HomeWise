@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;450;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-bg: #F7F7F4;
+  --color-primary: #2D6A4F;
+  --color-primary-hover: #245c43;
+  --color-primary-light: #E8F2ED;
+  --color-sage: #74A78A;
+  --color-sage-light: #EAF2EE;
+  --color-amber: #D97706;
+  --color-amber-light: #FEF3C7;
+  --color-near-black: #1A1A1A;
+  --color-gray-700: #374151;
+  --color-gray-500: #6B7280;
+  --color-gray-400: #9CA3AF;
+  --color-gray-300: #D1D5DB;
+  --color-gray-100: #F3F4F6;
+  --color-card: #FFFFFF;
+  --color-border: #E5E7EB;
+  --font-display: 'Manrope', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #F7F7F4;
+  color: #1A1A1A;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Hide scrollbars until hover */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+*:hover {
+  scrollbar-color: #D1D5DB transparent;
+}
+
+.recharts-tooltip-wrapper {
+  outline: none;
+}
