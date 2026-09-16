@@ -1,10 +1,5 @@
 {
-  "description": "Empower homebuyers to forecast property prices and assess affordability with personalized financial insights and predictive analytics for informed decision-making.",
-  "robots": {
-    "index": false
-  },
-  "accessibility": {
-    "addBypassLinks": false,
-    "ignoreReducedMotion": false
-  }
+  "title": "HomeWise",
+  "description": "ML-Powered Property Affordability Predictor"
 }
+
